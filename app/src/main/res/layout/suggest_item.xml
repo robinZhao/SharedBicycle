@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="58dip"
+    style="@style/RtlOverlay.Widget.AppCompat.Search.DropDown">
+    <TextView
+        style="?android:attr/dropDownItemStyle"
+        android:textAppearance="?attr/textAppearanceSearchResultSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="29dip"
+        android:paddingBottom="4dip"
+        android:gravity="top"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/textview2" />
+
+    <TextView
+        style="?android:attr/dropDownItemStyle"
+        android:textAppearance="?attr/textAppearanceSearchResultTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_above="@id/textview2"
+        android:id="@+id/textview1" />
+</RelativeLayout>
