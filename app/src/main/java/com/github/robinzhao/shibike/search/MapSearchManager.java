@@ -45,7 +45,6 @@ import com.github.robinzhao.shibike.R;
 /**
  * Created by zhaoruibin on 2016/11/19.
  */
-
 public class MapSearchManager implements
         OnGetPoiSearchResultListener, OnGetSuggestionResultListener, SearchView.OnQueryTextListener {
     private PoiSearch mPoiSearch = null;
